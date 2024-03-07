@@ -4,7 +4,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="text-center bg-black rounded-lg p-0 fixed-bottom">
+    <footer className="text-center bg-black rounded-lg p-0 fixed-bottom" style={{padding:"20px"}}>
       <div className="text-center bg-black rounded-lg p-4">
         <a href="https://www.linkedin.com/in/daelyn-hiduchick-811a75232/" className="text-white me-3" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin-in"></i>
