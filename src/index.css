@@ -1,0 +1,81 @@
+* {
+    background-color: #a3d092;
+  }
+  
+  h1 {
+    text-decoration: #060606;
+    background-color: #a3d092;
+  }
+  
+  h5 {
+    text-decoration: none;
+  }
+  
+  .card {
+    min-height: 200px;
+  }
+  
+  .card-img {
+    position: relative;
+  }
+  
+  .contact-form-section {
+    background-color: #a3d092; /* Dark background color */
+    color: #f9dae4; /* Text color */
+    padding: 2rem;
+  }
+  
+  .contact-form-section h2 {
+    margin-bottom: 1rem;
+    color: #000000; 
+  }
+  
+  .contact-form-section form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .contact-form-section .form-label {
+    text-align: left;
+    display: block;
+    color: #000000; /* Orange color for labels */
+  }
+  
+  .contact-form-section .form-control {
+    background-color: #a3d092; /* Darker background for input fields */
+    border: none;
+    margin-bottom: 1rem;
+    color: #020101; /* Text color */
+  }
+  
+  .contact-form-section .form-control::placeholder {
+    color: #cdeeed; /* Placeholder text color */
+  }
+  
+  .contact-form-section .btn {
+    background-color: #83d6d5; /* Blue color for button */
+    border: none;
+    color: #000000; /* Text color */
+  }
+  
+  
+  footer a {
+    font-size: 35px; /* Size of the icons */
+  }
+  
+  footer a:hover {
+    color: #f9dae4;
+  }
+  
+  footer i {
+    padding: 1rem; 
+  }
+  
+  img {
+    display: center;
+  }
+  
+  p {
+    font-size: x-large;
+    text-align: center;
+  }
