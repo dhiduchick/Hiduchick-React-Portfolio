@@ -1,14 +1,14 @@
 import React from 'react'
-import ProjectCard from '../components/ProjectCard'
+import ProjectCard from '../components/Projects'
 
 
 function Portfolio() {
   const projects = [
     {
-      title: 'Coding Quiz',
-      description: '',
-      imageUrl: '../../public/codingquiz.png',
-      projectUrl: 'https://dhiduchick.github.io/Hiduchick-Coding-Quiz/'
+        title: 'Tech Blog',
+        description: '',
+        imageUrl: '../../public/techblog.png',
+        projectUrl: 'https://github.com/dhiduchick/Hiduchick-Tech-Blog.git'
     },
     {
       title: 'Culinary Canvas',
@@ -31,20 +31,14 @@ function Portfolio() {
       {
         title: 'README Generator',
         description: '',
-        imageUrl: '../../public/readme-preview',
+        imageUrl: '../../public/readme-preview.png',
         projectUrl: 'https://github.com/dhiduchick/Hiduchick-README-Generator.git'
       },
       {
         title: 'Cosmic Counsel',
         description: '',
-        imageUrl: '../../public/StartPageCC',
+        imageUrl: '../../public/StartPageCC.png',
         projectUrl: 'https://conartisttt.github.io/Cosmic-Counsel/'
-      },
-      {
-        title: 'Tech Blog',
-        description: '',
-        imageUrl: '../../public/teachblog.png',
-        projectUrl: 'https://github.com/dhiduchick/Hiduchick-Tech-Blog.git'
       },
       {
         title: 'Weather Dashbord',
@@ -53,11 +47,17 @@ function Portfolio() {
         projectUrl: 'https://dhiduchick.github.io/Hiduchick-Weather-Dashboard/'
       },
       {
+        title: 'Coding Quiz',
+        description: '',
+        imageUrl: '../../public/codingquiz.png',
+        projectUrl: 'https://dhiduchick.github.io/Hiduchick-Coding-Quiz/'
+      },
+      {
         title: 'Work Day Scheduler',
         description: '',
         imageUrl: '../../public/workday.png',
         projectUrl: 'https://dhiduchick.github.io/Hiduchick-Day-Scheduler/'
-      },
+    }
   ];
 
   return (
@@ -65,7 +65,7 @@ function Portfolio() {
       <h1 className="text-center text-white mb-4">Portfolio Projects</h1>
       <div className="row g-4">
         {projects.map((project, index) => (
-          <div className="col-md-6 d-flex" key={index}>
+          <div className="col-md-6 d-flex" key={index} style = {{paddingBottom: 50}}>
             <ProjectCard {...project} />
           </div>
         ))}
@@ -75,4 +75,4 @@ function Portfolio() {
 }
 
 
-export default Portfolio
+export default Portfolio;

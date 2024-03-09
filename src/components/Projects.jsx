@@ -3,7 +3,7 @@ import React from 'react'
 
 function ProjectCard({ title, imageUrl, projectUrl }) {
   return (
-    <div className="card bg-dark text-white flex-fill">
+    <div className=" text-white flex-fill" style={{backgroundColor:'#a3d092'}}>
       <a href={projectUrl} target="_blank" rel="noopener noreferrer">
         {/* Ensure that the image is wrapped within the card-body */}
         <div className="card-body p-0">

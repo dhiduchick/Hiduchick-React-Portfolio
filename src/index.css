@@ -3,7 +3,7 @@
   }
   
   h1 {
-    text-decoration: #060606;
+    text-decoration: #ffffff;
     background-color: #a3d092;
   }
   
@@ -12,7 +12,10 @@
   }
   
   .card {
-    min-height: 200px;
+    /* min-height: 200px; */
+    max-height: 300px;
+    padding-top: 50px;
+  
   }
   
   .card-img {
@@ -21,7 +24,7 @@
   
   .contact-form-section {
     background-color: #a3d092; /* Dark background color */
-    color: #f9dae4; /* Text color */
+    color: #000000; /* Text color */
     padding: 2rem;
   }
   
@@ -42,14 +45,14 @@
   }
   
   .contact-form-section .form-control {
-    background-color: #a3d092; /* Darker background for input fields */
+    background-color: #cdeeed; /* Darker background for input fields */
     border: none;
     margin-bottom: 1rem;
     color: #020101; /* Text color */
   }
   
   .contact-form-section .form-control::placeholder {
-    color: #cdeeed; /* Placeholder text color */
+    color: #000000; /* Placeholder text color */
   }
   
   .contact-form-section .btn {
@@ -68,7 +71,7 @@
   }
   
   footer i {
-    padding: 1rem; 
+    padding-top: 50px; 
   }
   
   img {

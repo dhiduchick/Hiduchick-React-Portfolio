@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './Pages/AboutMe';
-import Portfolio from './pages/Portfolio';
+import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
-import Resume from './pages/Resume';
+import Resume from './Pages/Resume';
 import Footer from './components/Footer';
 
 

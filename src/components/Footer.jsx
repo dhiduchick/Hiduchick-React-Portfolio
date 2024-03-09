@@ -1,21 +1,20 @@
-import React from 'react'
-//import { Link } from 'react-router-dom'
-
+import React from 'react';
 
 function Footer() {
   return (
-    <footer className="text-center bg-black rounded-lg p-0 fixed-bottom" style={{padding:"20px"}}>
-      <div className="text-center bg-black rounded-lg p-4">
+    <footer className="text-center rounded-lg p-0" style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', paddingTop:10 }}>
+      <div className="text-center rounded-lg p-0" style={{ position: 'fixed', bottom: 0, left: 0, width: '100%'}}>
         <a href="https://www.linkedin.com/in/daelyn-hiduchick-811a75232/" className="text-white me-3" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin-in"></i>
+          <img src="./public/linkedin.png" alt="Linkedin Icon" style={{ width: "50px", height: "50px" }} />
         </a>
         <a href="https://github.com/dhiduchick" className="text-white" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github"></i>
+          <img src="./public/github.png" alt="GitHub Icon" style={{ width: "50px", height: "50px" }} />
         </a>
       </div>
     </footer>
-  )
+  );
 }
 
+export default Footer;
 
-export default Footer
+

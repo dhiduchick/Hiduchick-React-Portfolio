@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <div style={{ marginBottom: '150px' }}>
       <h1 className="contact-form-section text-center rounded-lg p-4">My Resume</h1>
-      <h3 className="contact-form-section rounded-pill bg-black text-center rounded-lg p-4">Download my resume <a href="hhttps://docs.google.com/document/d/1XAESBFieLCd4egDw3Q4K-Hg0Ujze49eKaJ9PrJDEjp8/edit?usp=sharing" style={{ backgroundColor: 'black' }}>✧*̥˚ Here *̥˚✧</a></h3>
+      <h3 className="contact-form-section rounded-pill text-center rounded-lg p-4"style={{ backgroundColor: '#c7e2bd' }}>Download my resume <a href="hhttps://docs.google.com/document/d/1XAESBFieLCd4egDw3Q4K-Hg0Ujze49eKaJ9PrJDEjp8/edit?usp=sharing" style={{ backgroundColor: '#c7e2bd' }}>✧*̥˚ Here *̥˚✧</a></h3>
 
       <section className="contact-form-section rounded-lg p-4">
         <h3>Front-End Technologies:</h3>
@@ -67,3 +67,5 @@ const Resume = () => {
     </div>
   )
 }
+
+export default Resume;
