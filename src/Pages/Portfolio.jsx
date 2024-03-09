@@ -13,49 +13,49 @@ function Portfolio() {
     {
       title: 'Culinary Canvas',
       description: '',
-      imageUrl: './public/homepageculinary.png',
+      imageUrl: '../public/homepageculinary.png',
       projectUrl: 'https://evening-reef-48573-57db96f3f837.herokuapp.com/'
     },
     {
         title: 'Note Taker',
         description: '',
-        imageUrl: './public/notetaker.png',
+        imageUrl: '../public/notetaker.png',
         projectUrl: 'https://github.com/dhiduchick/Hiduchick-Note-Taker.git'  
     },
     {
         title: 'Password Generator',
         description: '',
-        imageUrl: './public/passwordgen.png',
+        imageUrl: '../public/passwordgen.png',
         projectUrl: 'https://dhiduchick.github.io/Hiduchick-Password-Generator/'
       },
       {
         title: 'README Generator',
         description: '',
-        imageUrl: './public/readme-preview.png',
+        imageUrl: '../public/readme-preview.png',
         projectUrl: 'https://github.com/dhiduchick/Hiduchick-README-Generator.git'
       },
       {
         title: 'Cosmic Counsel',
         description: '',
-        imageUrl: './public/StartPageCC.png',
+        imageUrl: '../public/StartPageCC.png',
         projectUrl: 'https://conartisttt.github.io/Cosmic-Counsel/'
       },
       {
         title: 'Weather Dashbord',
         description: '',
-        imageUrl: './public/weatherdash.png',
+        imageUrl: '../public/weatherdash.png',
         projectUrl: 'https://dhiduchick.github.io/Hiduchick-Weather-Dashboard/'
       },
       {
         title: 'Coding Quiz',
         description: '',
-        imageUrl: './public/codingquiz.png',
+        imageUrl: '../public/codingquiz.png',
         projectUrl: 'https://dhiduchick.github.io/Hiduchick-Coding-Quiz/'
       },
       {
         title: 'Work Day Scheduler',
         description: '',
-        imageUrl: './public/workday.png',
+        imageUrl: '../public/workday.png',
         projectUrl: 'https://dhiduchick.github.io/Hiduchick-Day-Scheduler/'
     }
   ];
