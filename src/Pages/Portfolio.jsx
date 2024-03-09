@@ -7,7 +7,7 @@ function Portfolio() {
     {
         title: 'Tech Blog',
         description: '',
-        imageUrl: './public/techblog.png',
+        imageUrl: '/techblog.png',
         projectUrl: 'https://github.com/dhiduchick/Hiduchick-Tech-Blog.git'
     },
     {
